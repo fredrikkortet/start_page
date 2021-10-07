@@ -1,0 +1,114 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+.body{
+    background: #e7e7e7;
+}
+/*here is navigationbar*/
+.Navbar {
+    background: #131313;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+.NavbarContainer {
+    display:flex;
+    justify-content: space-between;
+    height: 80px;
+    z-index: 1;
+    width:100%;
+    max-width: 2000px;
+    margin:0 auto;
+    padding:0 50px;
+}
+#NavbarLogo{
+    background: #5cd05d;
+    background-image: linear-gradient(330deg, #5cd05d 40%, #5c95d0 80%);
+    background-size: 100%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    display:flex;
+    align-items: center;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 2rem;
+}
+.NavbarMenu{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    text-align: center;
+}
+.NavbarItem{
+    height: 80px;
+}
+.NavbarLink{
+    color: #e7e7e7;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    padding: 0 1rem;
+    height: 100%;
+}
+.NavbarLink:hover{
+    color: #5cd05d;
+    transition: all 0.3s ease;
+}
+/*Main section*/
+.Main{
+    height: 1000px;
+}
+.MainCard {
+    
+    max-height: 1000px;
+    justify-content: center;
+    display: flex;
+}
+.CardColumn{
+    height: 200px;
+    width: 180px;
+    background: #883288;
+    float:left;
+    justify-content: center;
+    display: flex;
+    margin: 20px;
+    border-radius: 3px;
+    box-shadow: 5px 5px 20px 5px grey;
+}
+.CardColumn:hover{
+    height: 210px;
+    width: 190px;
+    margin-top: 10px;
+    transition: all 0.1s ease; 
+}
+.TopCard{
+    width: 100%;
+    height: 220px;
+}
+/*footer*/
+.Foot{
+    width:100%;
+    height:200px;
+    background: #131313;
+    color: #e7e7e7;
+    
+
+}
+
+
+
+
+
+
